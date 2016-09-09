@@ -1,54 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>World Nomad Games Photos</title>
-<style>
-.img_wng {
-  height: 100px;
-  width: 500px;
-  float: top;
-  padding-left: 30%;
-  padding-top: 10px;
-  padding-bottom: 0;
-}
-.pic {
-  align-content: center;
-  }
-.pic2{
-  height: 500px;
-  width: 800px;
-}
-h1 {
-  padding-left: 23%;
-  padding-top: 10px;
-  font-family:Arial;
-  color:red;
-  font-size: 200%;
-}
-.nav {
-  font-style: italic;
-  font-size: 20px;
-  margin-left: 10px;
-  color: white;
-}
-div {
-    margin-left: 10%;
+  <title>Alpha Blog</title>
 
-}
-footer {
-      background-color: red;
-      margin: 0 50px;
-  }
-</style>
 </head>
 <body>
-  <%= image_tag src='wng.jpg', :class => "img_wng" %>
-<h1>“UNITED in FORCE! UNITED in SPIRIT!”</h1>
-<div>
-<%= image_tag src='cerem.jpg', :class => "pic"%><br>
-</div>
 
-<footer><%= link_to 'Home', root_path, :class => "nav" %></footer>
+<h1>About Page</h1><br>
+<%= link_to 'Alpha Blog', articles_path %> | <%= link_to 'Home', root_path %>
 
 </body>
 </html>
